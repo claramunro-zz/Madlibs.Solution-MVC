@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Do Some Madlibs!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in the blanks and create a madlib!</h1>
+    <form action="/result" method="post">
+        <label for="person1">A name</label>
+        <input id="person1" name="person1" class="form-control" type="text">
+        <label for="person2">Another name</label>
+        <input id="person2" name="person2"class="form-control" type="text">
+        <label for="animal">An animal</label>
+        <input id="animal" name="animal" class="form-control" type="text">
+        <label for="exclamation">An exclamation</label>
+        <input id="exclamation" name="exclamation" class="form-control" type="text">
+        <label for="verb">A past tense verb</label>
+        <input id="verb" name="verb" class="form-control" type="text">
+        <label for="noun">A noun</label>
+        <input id="noun" name="noun" class="form-control" type="text">
+        <button type="submit" class="btn">Show me the story!</button>
+    </form>
+  </body>
+</html>
